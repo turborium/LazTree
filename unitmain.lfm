@@ -1,0 +1,16 @@
+object FormTree: TFormTree
+  Left = 609
+  Height = 582
+  Top = 233
+  Width = 788
+  Caption = 'FormTree'
+  OnPaint = FormPaint
+  LCLVersion = '2.0.10.0'
+  Position = poScreenCenter
+  object Timer: TTimer
+    Interval = 33
+    OnTimer = TimerTimer
+    Left = 460
+    Top = 234
+  end
+end
